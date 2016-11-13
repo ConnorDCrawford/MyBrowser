@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.temple.mybrowser.WebActivity">
+    <!--<item android:id="@+id/search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--android:title="@string/search_title"-->
+        <!--android:icon="@drawable/ic_action_search"-->
+        <!--android:inputType="textUri"-->
+        <!--app:showAsAction="always|collapseActionView" />-->
+    <item android:id="@+id/prev"
+        android:title="@string/prev_title"
+        android:icon="@drawable/ic_action_arrow_left"
+        app:showAsAction="always" />
+    <item android:id="@+id/next"
+        android:title="@string/next_title"
+        android:icon="@drawable/ic_action_arrow_right"
+        app:showAsAction="always" />
+    <item android:id="@+id/add"
+        android:title="@string/add_title"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="always" />
+</menu>
